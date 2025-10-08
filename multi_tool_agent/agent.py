@@ -6,7 +6,7 @@ from google.adk.models.lite_llm import LiteLlm
 
 
 model = LiteLlm(
-    model="siliconflow/Qwen/Qwen2.5-7B-Instruct",  # 请替换为实际的模型名，例如 "deepseek/deepseek-chat"
+    model="openai/Qwen/Qwen2.5-7B-Instruct",  # 请替换为实际的模型名，例如 "deepseek/deepseek-chat"
     api_key = "sk-kmrvqsmsnygnmtjroupkrbfxmnuicytuwfjisklidhoqogld",  # 这里可能需要替换为实际的参数名，如 `api_key`
     base_url = "https://api.siliconflow.cn/v1",  # 硅基流动的API端点:cite[1]:cite[2]:cite[6]
 )
